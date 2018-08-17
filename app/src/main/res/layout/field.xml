@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label_intake_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:text="@string/label_Intake_Duration"
+        android:layout_alignParentLeft="true" />
+    <TextView
+        android:id="@+id/value_intake_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_intake_duration"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/label_exhaust_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label_intake_duration"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:text="@string/label_Exhaust_Duration"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/value_exhaust_duration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_exhaust_duration"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/label_intake_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/label_exhaust_duration"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:text="@string/label_Intake_Centerline"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/value_intake_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_intake_centerline"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/label_exhaust_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_intake_centerline"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="@string/label_Exhaust_Centerline"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/value_exhaust_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_exhaust_centerline"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/label_LSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_exhaust_centerline"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="@string/label_LSA"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/value_LSA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_LSA"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/label_overlap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_LSA"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentLeft="true"
+        android:ems="10"
+        android:text="@string/label_Overlap"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/value_overlap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/label_overlap"
+        android:layout_alignParentRight="true"
+        android:ems="10"
+        android:text=""
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>

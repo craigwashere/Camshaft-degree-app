@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Cam degree</string>
+    <string name="label_Intake_Duration">       Intake Duration</string>
+    <string name="label_Exhaust_Duration">      Exhaust Duration</string>
+    <string name="label_Intake_Centerline">     Intake Centerline</string>
+    <string name="label_Intake_Opens">          Intake Opens:</string>
+    <string name="label_Intake_Closes">         Intake Closes:</string>
+    <string name="label_Exhaust_Opens">         Exhaust Opens:</string>
+    <string name="label_Exhaust_Closes">        Exhaust Closes:</string>
+    <string name="label_Calculate">             Calculate</string>
+
+    <string name="label_Exhaust_Centerline">Exhaust Centerline</string>
+    <string name="label_LSA">LSA</string>
+    <string name="label_Overlap">Overlap</string>
+
+    <string name="label_intake_opens_label">      label_intake_opens</string>
+    <string name="label_intake_centerline_label"> label_intake_centerline</string>
+    <string name="label_intake_closes_label">     label_intake_closes</string>
+
+    <string name="label_exhaust_opens_label">      label_exhaust_opens</string>
+    <string name="label_exhaust_centerline_label"> label_exhaust_centerline</string>
+    <string name="label_exhaust_closes_label">     label_exhaust_closes</string>
+
+</resources>

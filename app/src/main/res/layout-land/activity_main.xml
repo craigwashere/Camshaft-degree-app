@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.beaubien.cam_degree.MainActivity"
+    tools:layout_editor_absoluteY="73dp"
+    tools:layout_editor_absoluteX="0dp">
+
+
+    <TextView
+        android:id="@+id/label_intake_opens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/label_Intake_Opens"
+        app:layout_constraintLeft_toLeftOf="@+id/text_intake_opens"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.441" />
+    <EditText
+        android:id="@+id/text_intake_opens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/label_intake_opens"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        android:layout_marginStart="8dp" />
+
+    <TextView
+        android:id="@+id/label_intake_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Intake_Centerline"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_intake_opens"
+        app:layout_constraintLeft_toLeftOf="@+id/text_intake_centerline"
+        app:layout_constraintHorizontal_bias="0.504" />
+    <EditText
+        android:id="@+id/text_intake_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/label_intake_centerline"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_intake_closes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Intake_Closes"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_intake_centerline"
+        app:layout_constraintLeft_toLeftOf="@+id/text_intake_closes"
+        app:layout_constraintHorizontal_bias="0.437" />
+    <EditText
+        android:id="@+id/text_intake_closes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintTop_toBottomOf="@+id/label_intake_closes"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_exhaust_opens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="@string/label_Exhaust_Opens"
+        app:layout_constraintLeft_toLeftOf="@+id/text_exhaust_opens" />
+    <EditText
+        android:id="@+id/text_exhaust_opens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        tools:layout_editor_absoluteY="33dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/text_intake_opens"
+        app:layout_constraintTop_toBottomOf="@id/label_exhaust_opens"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_exhaust_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Exhaust_Centerline"
+        app:layout_constraintLeft_toLeftOf="@+id/text_exhaust_centerline"
+        app:layout_constraintHorizontal_bias="0.41"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_exhaust_opens" />
+    <EditText
+        android:id="@+id/text_exhaust_centerline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/label_exhaust_centerline"
+        app:layout_constraintLeft_toRightOf="@+id/text_intake_centerline"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/label_exhaust_closes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_Exhaust_Closes"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/text_exhaust_centerline"
+        app:layout_constraintLeft_toLeftOf="@+id/text_exhaust_closes"
+        app:layout_constraintHorizontal_bias="0.517" />
+    <EditText
+        android:id="@+id/text_exhaust_closes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/label_exhaust_closes"
+        app:layout_constraintLeft_toRightOf="@+id/text_intake_closes"
+        android:layout_marginLeft="100dp"
+        android:layout_marginStart="100dp"
+        tools:ignore="LabelFor" />
+
+</android.support.constraint.ConstraintLayout>
